@@ -9,21 +9,21 @@
 import Foundation
 import FirebaseAuth
 
-class FIRAuthMock: FIRAuth {
-    var mockUser: FIRUser
-    
-    init?(user: FIRUser) {
-        self.mockUser = user
-    }
-    
-    
-    /** @property currentUser
-     @brief Synchronously gets the cached current user, or null if there is none.
-     */
-    override var currentUser: FIRUser? {
-        get {
-            return mockUser
-        }
-    }
-    
-}
+//class FIRAuthMock: FIRAuth {
+//    var mockUser: FIRUser
+//    
+//    init?(user: FIRUser) {
+//        self.mockUser = user
+//    }
+//    
+//    
+//    /** @property currentUser
+//     @brief Synchronously gets the cached current user, or null if there is none.
+//     */
+//    override var currentUser: FIRUser? {
+//        get {
+//            return mockUser
+//        }
+//    }
+//    
+//}
