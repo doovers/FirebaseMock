@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E396624D2F9BD5977478AD9 /* Pods_FirebaseMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A771E36DF3272C5964CE1A01 /* Pods_FirebaseMock.framework */; };
+		6EECBD8D998E0A48F7A89A43 /* Pods_FirebaseMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FD6E9FA3D7E54D5E805559 /* Pods_FirebaseMockTests.framework */; };
 		F86DDBBD1DB5E8290052FD7D /* FirebaseMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86DDBB31DB5E8290052FD7D /* FirebaseMock.framework */; };
-		F86DDBC21DB5E8290052FD7D /* FirebaseMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBC11DB5E8290052FD7D /* FirebaseMockTests.swift */; };
+		F86DDBC21DB5E8290052FD7D /* FIRDatabaseReferenceMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBC11DB5E8290052FD7D /* FIRDatabaseReferenceMockTests.swift */; };
 		F86DDBC41DB5E8290052FD7D /* FirebaseMock.h in Headers */ = {isa = PBXBuildFile; fileRef = F86DDBB61DB5E8290052FD7D /* FirebaseMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86DDBCE1DB5E9150052FD7D /* FIRDatabaseReferenceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBCD1DB5E9150052FD7D /* FIRDatabaseReferenceMock.swift */; };
+		F86DDBD01DB5ED190052FD7D /* FIRDataSnapshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBCF1DB5ED190052FD7D /* FIRDataSnapshotMock.swift */; };
+		F86DDBD21DB5ED600052FD7D /* FIRDataSnapshotMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBD11DB5ED600052FD7D /* FIRDataSnapshotMockTests.swift */; };
+		F86DDBD41DB5ED950052FD7D /* FIRAuthMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBD31DB5ED950052FD7D /* FIRAuthMock.swift */; };
+		F86DDBD61DB5EDE80052FD7D /* FIRAuthMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBD51DB5EDE80052FD7D /* FIRAuthMockTests.swift */; };
+		F86DDBD81DB5F07C0052FD7D /* FIRUserMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBD71DB5F07C0052FD7D /* FIRUserMock.swift */; };
+		F86DDBDA1DB5F0A00052FD7D /* FIRUserMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DDBD91DB5F0A00052FD7D /* FIRUserMockTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +32,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B8F41121E21C3C195ABEB9 /* Pods-FirebaseMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseMock/Pods-FirebaseMock.debug.xcconfig"; sourceTree = "<group>"; };
+		61A1CBB55716F602545134EB /* Pods-FirebaseMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseMockTests/Pods-FirebaseMockTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F015DB46C6AC4ED1CE9878B /* Pods-FirebaseMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseMockTests/Pods-FirebaseMockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8990BED7C3109BBB1D4DB235 /* Pods-FirebaseMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMock.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseMock/Pods-FirebaseMock.release.xcconfig"; sourceTree = "<group>"; };
+		A771E36DF3272C5964CE1A01 /* Pods_FirebaseMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD6E9FA3D7E54D5E805559 /* Pods_FirebaseMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseMockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86DDBB31DB5E8290052FD7D /* FirebaseMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86DDBB61DB5E8290052FD7D /* FirebaseMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseMock.h; sourceTree = "<group>"; };
 		F86DDBB71DB5E8290052FD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86DDBBC1DB5E8290052FD7D /* FirebaseMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86DDBC11DB5E8290052FD7D /* FirebaseMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMockTests.swift; sourceTree = "<group>"; };
+		F86DDBC11DB5E8290052FD7D /* FIRDatabaseReferenceMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDatabaseReferenceMockTests.swift; sourceTree = "<group>"; };
 		F86DDBC31DB5E8290052FD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86DDBCD1DB5E9150052FD7D /* FIRDatabaseReferenceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDatabaseReferenceMock.swift; sourceTree = "<group>"; };
+		F86DDBCF1DB5ED190052FD7D /* FIRDataSnapshotMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDataSnapshotMock.swift; sourceTree = "<group>"; };
+		F86DDBD11DB5ED600052FD7D /* FIRDataSnapshotMockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDataSnapshotMockTests.swift; sourceTree = "<group>"; };
+		F86DDBD31DB5ED950052FD7D /* FIRAuthMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRAuthMock.swift; sourceTree = "<group>"; };
+		F86DDBD51DB5EDE80052FD7D /* FIRAuthMockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRAuthMockTests.swift; sourceTree = "<group>"; };
+		F86DDBD71DB5F07C0052FD7D /* FIRUserMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRUserMock.swift; sourceTree = "<group>"; };
+		F86DDBD91DB5F0A00052FD7D /* FIRUserMockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRUserMockTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E396624D2F9BD5977478AD9 /* Pods_FirebaseMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +67,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86DDBBD1DB5E8290052FD7D /* FirebaseMock.framework in Frameworks */,
+				6EECBD8D998E0A48F7A89A43 /* Pods_FirebaseMockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86A7F51ED3880313915E75D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12B8F41121E21C3C195ABEB9 /* Pods-FirebaseMock.debug.xcconfig */,
+				8990BED7C3109BBB1D4DB235 /* Pods-FirebaseMock.release.xcconfig */,
+				7F015DB46C6AC4ED1CE9878B /* Pods-FirebaseMockTests.debug.xcconfig */,
+				61A1CBB55716F602545134EB /* Pods-FirebaseMockTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4FF7079F5C1ED83681FDA8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A771E36DF3272C5964CE1A01 /* Pods_FirebaseMock.framework */,
+				A7FD6E9FA3D7E54D5E805559 /* Pods_FirebaseMockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F86DDBA91DB5E8290052FD7D = {
 			isa = PBXGroup;
 			children = (
 				F86DDBB51DB5E8290052FD7D /* FirebaseMock */,
 				F86DDBC01DB5E8290052FD7D /* FirebaseMockTests */,
 				F86DDBB41DB5E8290052FD7D /* Products */,
+				86A7F51ED3880313915E75D9 /* Pods */,
+				F4FF7079F5C1ED83681FDA8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +119,10 @@
 			children = (
 				F86DDBB61DB5E8290052FD7D /* FirebaseMock.h */,
 				F86DDBB71DB5E8290052FD7D /* Info.plist */,
+				F86DDBD31DB5ED950052FD7D /* FIRAuthMock.swift */,
+				F86DDBCD1DB5E9150052FD7D /* FIRDatabaseReferenceMock.swift */,
+				F86DDBCF1DB5ED190052FD7D /* FIRDataSnapshotMock.swift */,
+				F86DDBD71DB5F07C0052FD7D /* FIRUserMock.swift */,
 			);
 			path = FirebaseMock;
 			sourceTree = "<group>";
@@ -80,7 +130,10 @@
 		F86DDBC01DB5E8290052FD7D /* FirebaseMockTests */ = {
 			isa = PBXGroup;
 			children = (
-				F86DDBC11DB5E8290052FD7D /* FirebaseMockTests.swift */,
+				F86DDBD51DB5EDE80052FD7D /* FIRAuthMockTests.swift */,
+				F86DDBC11DB5E8290052FD7D /* FIRDatabaseReferenceMockTests.swift */,
+				F86DDBD11DB5ED600052FD7D /* FIRDataSnapshotMockTests.swift */,
+				F86DDBD91DB5F0A00052FD7D /* FIRUserMockTests.swift */,
 				F86DDBC31DB5E8290052FD7D /* Info.plist */,
 			);
 			path = FirebaseMockTests;
@@ -104,10 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F86DDBC71DB5E8290052FD7D /* Build configuration list for PBXNativeTarget "FirebaseMock" */;
 			buildPhases = (
+				8E75B8C24EB5124D255ECF82 /* [CP] Check Pods Manifest.lock */,
 				F86DDBAE1DB5E8290052FD7D /* Sources */,
 				F86DDBAF1DB5E8290052FD7D /* Frameworks */,
 				F86DDBB01DB5E8290052FD7D /* Headers */,
 				F86DDBB11DB5E8290052FD7D /* Resources */,
+				C1BCE1F8850466774C853930 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F86DDBCA1DB5E8290052FD7D /* Build configuration list for PBXNativeTarget "FirebaseMockTests" */;
 			buildPhases = (
+				E8F09879C4F9EA65E1505829 /* [CP] Check Pods Manifest.lock */,
 				F86DDBB81DB5E8290052FD7D /* Sources */,
 				F86DDBB91DB5E8290052FD7D /* Frameworks */,
 				F86DDBBA1DB5E8290052FD7D /* Resources */,
+				D1443B291A380EA11BDF5406 /* [CP] Embed Pods Frameworks */,
+				89235F3842A65EDE8859C6E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +207,7 @@
 					F86DDBB21DB5E8290052FD7D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = G5N9THDA6W;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					F86DDBBB1DB5E8290052FD7D = {
@@ -193,11 +252,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89235F3842A65EDE8859C6E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseMockTests/Pods-FirebaseMockTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E75B8C24EB5124D255ECF82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BCE1F8850466774C853930 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseMock/Pods-FirebaseMock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1443B291A380EA11BDF5406 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseMockTests/Pods-FirebaseMockTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F09879C4F9EA65E1505829 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F86DDBAE1DB5E8290052FD7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86DDBD81DB5F07C0052FD7D /* FIRUserMock.swift in Sources */,
+				F86DDBCE1DB5E9150052FD7D /* FIRDatabaseReferenceMock.swift in Sources */,
+				F86DDBD01DB5ED190052FD7D /* FIRDataSnapshotMock.swift in Sources */,
+				F86DDBD41DB5ED950052FD7D /* FIRAuthMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +346,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86DDBC21DB5E8290052FD7D /* FirebaseMockTests.swift in Sources */,
+				F86DDBD61DB5EDE80052FD7D /* FIRAuthMockTests.swift in Sources */,
+				F86DDBC21DB5E8290052FD7D /* FIRDatabaseReferenceMockTests.swift in Sources */,
+				F86DDBDA1DB5F0A00052FD7D /* FIRUserMockTests.swift in Sources */,
+				F86DDBD21DB5ED600052FD7D /* FIRDataSnapshotMockTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +465,10 @@
 		};
 		F86DDBC81DB5E8290052FD7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B8F41121E21C3C195ABEB9 /* Pods-FirebaseMock.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G5N9THDA6W;
@@ -334,13 +481,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dooversoft.FirebaseMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F86DDBC91DB5E8290052FD7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8990BED7C3109BBB1D4DB235 /* Pods-FirebaseMock.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G5N9THDA6W;
@@ -359,7 +510,10 @@
 		};
 		F86DDBCB1DB5E8290052FD7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F015DB46C6AC4ED1CE9878B /* Pods-FirebaseMockTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = G5N9THDA6W;
 				INFOPLIST_FILE = FirebaseMockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -371,7 +525,10 @@
 		};
 		F86DDBCC1DB5E8290052FD7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A1CBB55716F602545134EB /* Pods-FirebaseMockTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = G5N9THDA6W;
 				INFOPLIST_FILE = FirebaseMockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +557,7 @@
 				F86DDBC91DB5E8290052FD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F86DDBCA1DB5E8290052FD7D /* Build configuration list for PBXNativeTarget "FirebaseMockTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +566,7 @@
 				F86DDBCC1DB5E8290052FD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
